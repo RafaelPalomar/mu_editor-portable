@@ -1,20 +1,19 @@
-FROM quay.io/toolbx-images/alpine-toolbox:edge
+FROM ubuntu:22.04
 
 LABEL com.github.containers.toolbox="true" \
-      usage="This image is meant to be used with the toolbox or distrobox command" \
-      summary="A cloud-native terminal experience" \
-      maintainer="jorge.castro@gmail.com"
+      usage="" \
+      summary="A cloud-native python editor experience" \
+      maintainer="rafaelpalomaravalos@gmail.com"
 
 COPY extra-packages /
-RUN apk update && \
-    apk upgrade && \
-    grep -v '^#' /extra-packages | xargs apk add
+RUN apt-get update && \
+    apt-get upgrade -y && \
+    grep -v '^#' /extra-packages | xargs apt-get install -y
 RUN rm /extra-packages
 
-RUN   ln -fs /bin/sh /usr/bin/sh && \
-      ln -fs /usr/bin/distrobox-host-exec /usr/local/bin/docker && \
-      ln -fs /usr/bin/distrobox-host-exec /usr/local/bin/flatpak && \ 
-      ln -fs /usr/bin/distrobox-host-exec /usr/local/bin/podman && \
-      ln -fs /usr/bin/distrobox-host-exec /usr/local/bin/rpm-ostree && \
-      ln -fs /usr/bin/distrobox-host-exec /usr/local/bin/transactional-update
-     
+WORKDIR /opt
+RUN curl -L https://github.com/mu-editor/mu/releases/download/v1.2.0/MuEditor-Linux-1.2.0-x86_64.tar | tar x && \
+    chmod +x Mu_Editor-1.2.0-x86_64.AppImage
+
+COPY resources/MuEditor.desktop /usr/share/applications
+COPY resources/MuEditor.png /usr/share/icons

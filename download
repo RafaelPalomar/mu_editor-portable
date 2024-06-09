@@ -1,0 +1,173 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <meta name="norton-safeweb-site-verification" content="1zcsne-iemsx3stdc2wt4xq0-020puow4-uj5bjstzudqn8zu406csvp-qy2d31gces1c9lz-k-hb7cj74zh-aouf0-jmzv39rdsvb1i-z3o6e7pllxmkbkqhcw8m629" />
+
+    <title>Download Mu</title>
+    
+    <meta name="author" content="Nicholas H.Tollervey">
+
+    <!-- Enable responsive viewport -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Bootstrap styles -->
+    <link href="/assets/themes/mu/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Optional theme -->
+    <link href="/assets/themes/mu/css/bootstrap-theme.min.css" rel="stylesheet">
+    <!-- Sticky Footer -->
+    <link href="/assets/themes/mu/css/bs-sticky-footer.css" rel="stylesheet">
+    
+    <!-- Custom styles -->
+    <link href="/assets/themes/mu/css/style.css" rel="stylesheet" type="text/css" media="all">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Fav and touch icons -->
+    <!-- Update these with your own images
+      <link rel="shortcut icon" href="images/favicon.ico">
+      <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+      <link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
+      <link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
+    -->
+  </head>
+
+  <body>
+      
+            <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+          <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="/en">
+                <img class="brand" alt="Mu Logo" src="/img/brand.png"/>
+              </a>
+          </div>
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+              <ul class="nav navbar-nav">
+                  <li><a href="/en/download">Download</a></li>
+                  <li><a href="/en/about">About</a></li>
+                  <li><a href="/en/tutorials/1.2/">Tutorials</a></li>
+                  <li><a href="/en/howto/1.2/">How to..?</a></li>
+                  <li><a href="/en/discuss">Discuss</a></li>
+                  <li><a href="/en/developers">Developers</a></li>
+                  <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Language<span class="caret"></span></a>
+                      <ul class="dropdown-menu">
+                        <li><a href="/en/">English</a></li>
+<li><a href="/es/">Español</a></li>
+
+                      </ul>
+                  </li>
+              </ul>
+          </div>
+      </div>
+    </nav>
+
+      
+      <div class="container">
+        <h1 id="download-mu">Download Mu</h1>
+
+<p>The simplest and easiest way to get Mu is via the official installer for
+Windows or Mac OSX (we no longer support 32bit Windows). We also have an
+experimental AppImage for Linux users running on Intel based hardware.</p>
+
+<p>The current recommended version is Mu 1.2.0. We advise people to update
+to this version via the links for each supported operating system. All previous
+beta versions of Mu <a href="https://github.com/mu-editor/mu/releases">can be downloaded from here</a>.</p>
+
+<div class="media">
+  <div class="media-left">
+    <img src="/img/windows_logo.png" alt="Windows Logo" class="media-object" />
+  </div>
+  <div class="media-body">
+    <h4 class="media-heading">Windows Installer</h4>
+    <p><a id="download-button-windows" href="https://github.com/mu-editor/mu/releases/download/v1.2.0/MuEditor-win64-1.2.0.msi" class="btn btn-primary" role="button">Download</a>
+    <a href="/en/howto/1.2/install_windows" class="btn btn-default" role="button">Instructions</a></p>
+  </div>
+</div>
+
+<hr />
+
+<div class="media">
+  <div class="media-left">
+    <img src="/img/apple_logo.png" alt="Apple Logo" class="media-object" />
+  </div>
+  <div class="media-body">
+    <h4 class="media-heading">Mac OSX Installer</h4>
+    <p><a id="download-button-macos" href="https://github.com/mu-editor/mu/releases/download/v1.2.0/MuEditor-OSX-1.2.0.dmg" class="btn btn-primary" role="button">Download</a>
+    <a href="/en/howto/1.2/install_macos" class="btn btn-default" role="button">Instructions</a></p>
+  </div>
+</div>
+
+<hr />
+
+<div class="media">
+  <div class="media-left">
+    <img src="/img/linux.png" alt="Linux Logo" class="media-object" />
+  </div>
+  <div class="media-body">
+    <h4 class="media-heading">Linux AppImage TAR Archive (Experimental)</h4>
+    <p><a id="download-button-linux" href="https://github.com/mu-editor/mu/releases/download/v1.2.0/MuEditor-Linux-1.2.0-x86_64.tar" class="btn btn-primary" role="button">Download</a>
+    <a href="/en/howto/1.2/install_linux" class="btn btn-default" role="button">Instructions</a></p>
+  </div>
+</div>
+
+<hr />
+
+<div class="panel panel-danger">
+    <div class="panel-heading"><h3 class="panel-title">ATTENTION LINUX USERS!</h3></div>
+    <div class="panel-body">
+    <p>On Linux, in order for Mu to work with the MicroPython based devices
+    you need to ensure you add yourself to the correct permissions group
+    (usually the <code>dialout</code> or <code>uucp</code> groups). Also make
+    sure that your distribution automatically mounts flash devices, or make
+    sure to mount them manually.</p>
+    </div>
+</div>
+
+<p>If you’re a developer, you can find the source code
+<a href="https://github.com/mu-editor/mu">on GitHub</a>. All our old releases
+<a href="https://github.com/mu-editor/mu/releases">can be found here</a>.</p>
+
+<p><strong>Instructions for developer setup</strong> can be found <a href="https://mu.readthedocs.io/en/latest/">in our developer documentation</a>.</p>
+
+      </div>
+
+      <div id="footer">
+        <div class="container footer">
+          <p>&copy; 2023
+          <a href="http://ntoll.org/" target="_blank">Nicholas H.Tollervey</a>.
+          Mu wouldn't be possible without
+          <a href="/en/thanks">these people</a>.
+          <span class="glyphicon glyphicon-heart" aria-hidden="true"
+              style="color: #c93827;"></span>
+          <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank"><img alt="Creative Commons Licence" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/80x15.png" /></a>
+          This site is licensed under the <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">Creative Commons by-nc-sa 4.0 International License</a>.
+          </p>
+        </div>
+      </div>
+      <!-- Latest compiled and minified JavaScript, requires jQuery 1.x (2.x not supported in IE8) -->
+      <!-- Placed at the end of the document so the pages load faster -->
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+      <script src="/assets/themes/mu/js/bootstrap.min.js"></script>
+
+      
+        <script src="/assets/themes/mu/js/platform.js"></script>
+      
+  </body>
+</html>
+

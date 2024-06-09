@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=MuEditor
+GenericName=MuEditor
+Comment=MuEditor
+Categories=Applications;Editor
+Exec=/opt/Mu_Editor-1.2.0-x86_64.AppImage
+Icon=/usr/share/icons/MuEditor.png
+Keywords=mu;editor;
+NoDisplay=false
+Terminal=false
+Type=Application
